@@ -1,0 +1,30 @@
+PODS:
+  - AXRatingView (1.0.6)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - AXRatingView (~> 1.0.6)
+  - Masonry
+  - MJExtension (~> 3.0.13)
+  - SDWebImage (~> 4.4.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AXRatingView
+    - Masonry
+    - MJExtension
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AXRatingView: b975cd1a11c6c2e76c8999c166e089ed26f54133
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: 6d9b22a8393c5a523b6b942c1d70c5079b8b8b89
+
+COCOAPODS: 1.5.2
