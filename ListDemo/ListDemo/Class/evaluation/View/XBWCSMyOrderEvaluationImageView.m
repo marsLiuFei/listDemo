@@ -25,7 +25,8 @@
     CGFloat w = (SCREEN_WIDTH-SIZE(50))/4.f;
     for (int i=0; i<4; i++) {
         UIImageView *img = [ViewCreate createImageViewFrame:CGRectMake(SIZE(10)+(SIZE(10)+w)*i, SIZE(10), w, w) image:@""];
-        
+        img.contentMode = UIViewContentModeScaleAspectFill;
+        img.clipsToBounds = YES;
         img.hidden = YES;
         [self addSubview:img];
         [arrM addObject:img];
